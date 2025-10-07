@@ -32,7 +32,7 @@ function classify_skill_group(industry_code)
     # 2. Broader categories defined by prefixes ("Net Fishing")
     manufacturing_prefixes = Set(["311", "313", "314", "315", "316", "321", "337"])
     entertainment_prefixes = Set(["7111", "7115", "7131", "7139", "71213", "71219"])
-    high_wage_sectors = Set(["51", "52", "54", "55"]) # 2-digit sectors
+    high_wage_sectors = Set(["51", "52", "54", "55"]) #2-digit sectors #Information (51), Financial Activities (52), Professional and Business Services (54), and Management of Companies and Enterprises (55)
 
     # --- Classification Logic (from most specific to most broad) ---
 
